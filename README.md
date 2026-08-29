@@ -4,11 +4,11 @@
 
 ## 下载
 
-前往 [Latest Release](https://github.com/LearnPrompt/done-lamp-releases/releases/latest) 下载 `done灯.dmg`。
+前往 [Latest Release](https://github.com/LearnPrompt/done-lamp-releases/releases/latest) 下载 `done-lamp-0.3.4.dmg`。
 
 ## 安装
 
-1. 双击 `done灯.dmg`。
+1. 双击 `done-lamp-0.3.4.dmg`。
 2. 把 `done灯.app` 拖到“应用程序”。
 3. 从“应用程序”打开 done灯。
 
