@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/LearnPrompt/done-lamp-releases/releases/download/v0.3.4/done-lamp-0.3.4.dmg">
+  <a href="https://github.com/LearnPrompt/done-lamp/releases/download/v0.3.4/done-lamp-0.3.4.dmg">
     <img src="https://img.shields.io/badge/Download-macOS%200.3.4-F4B400?style=for-the-badge&logo=apple&logoColor=111111" alt="下载 done灯 macOS 0.3.4">
   </a>
-  <a href="https://github.com/LearnPrompt/done-lamp-releases/releases/latest">
+  <a href="https://github.com/LearnPrompt/done-lamp/releases/latest">
     <img src="https://img.shields.io/badge/Release-更新内容-FFF4C2?style=for-the-badge&logo=github&logoColor=111111" alt="查看最新 Release">
   </a>
 </p>
@@ -78,7 +78,7 @@
   <img src="assets/early-daily-report.png" width="46%" alt="done灯 早期完成日报设计稿">
 </p>
 
-这些图不是定稿。你用的时候觉得哪里别扭，或者突然冒出一个更顺手的做法，都可以[直接告诉我](https://github.com/LearnPrompt/done-lamp-releases/issues/new?template=feature_request.yml)。下一版也可能从你的一句话开始。
+这些图不是定稿。你用的时候觉得哪里别扭，或者突然冒出一个更顺手的做法，都可以[直接告诉我](https://github.com/LearnPrompt/done-lamp/issues/new?template=feature_request.yml)。下一版也可能从你的一句话开始。
 
 ## 它不催你规划，只在你做完时亮一下
 
@@ -118,11 +118,11 @@
 | 签名与公证 | Developer ID 签名，已通过 Apple 公证并装订凭据 |
 | 下载文件 | `done-lamp-0.3.4.dmg` · 约 42.7 MB |
 
-这版具体改了什么，可以看 [0.3.4 Release Notes](https://github.com/LearnPrompt/done-lamp-releases/releases/tag/v0.3.4) 和 [CHANGELOG](CHANGELOG.md)。
+这版具体改了什么，可以看 [0.3.4 Release Notes](https://github.com/LearnPrompt/done-lamp/releases/tag/v0.3.4) 和 [CHANGELOG](CHANGELOG.md)。
 
 ## 用坏了怎么办
 
-先看看 [有没有人遇到同一个问题](https://github.com/LearnPrompt/done-lamp-releases/issues)。没有的话，直接告诉我。
+先看看 [有没有人遇到同一个问题](https://github.com/LearnPrompt/done-lamp/issues)。没有的话，直接告诉我。
 
-- [它哪里坏了](https://github.com/LearnPrompt/done-lamp-releases/issues/new?template=bug_report.yml)
-- [你希望它以后变成什么样](https://github.com/LearnPrompt/done-lamp-releases/issues/new?template=feature_request.yml)
+- [它哪里坏了](https://github.com/LearnPrompt/done-lamp/issues/new?template=bug_report.yml)
+- [你希望它以后变成什么样](https://github.com/LearnPrompt/done-lamp/issues/new?template=feature_request.yml)
