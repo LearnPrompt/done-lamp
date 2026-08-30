@@ -47,6 +47,39 @@
 
 我喜欢 Agent 带来的速度。done灯 只补上被速度挤掉的那个动作，让我在继续跑下一个任务之前，知道上一件已经结束。
 
+## 把早期设计稿也留在这里
+
+我不想只给你看一个已经打磨好的下载按钮。done灯 最初只是一个很笨也很直接的念头。做完一件事，按一下，让身体先知道它结束了。
+
+下面这些是最早的设计稿。有些想法后来真的做进了 App，有些被改掉了，还有一些正在等更好的答案。把它们放出来，是想让你看见 done灯 怎么一步步长成现在的样子。
+
+最开始，我画了一遍从“做完”到“按下”，再到晚上回看的完整过程。
+
+<p align="center">
+  <img src="assets/early-interaction-storyboard.png" width="100%" alt="done灯 早期完整交互故事板">
+</p>
+
+接着才有第一次打开 App 的流程，以及按下之后可能出现的每一种状态。
+
+<p align="center">
+  <img src="assets/early-onboarding.png" width="49%" alt="done灯 早期首次启动设计稿">
+  <img src="assets/early-menubar-states.png" width="49%" alt="done灯 早期菜单栏交互状态设计稿">
+</p>
+
+那时我还在想，这盏灯除了亮起来，能不能也有一点自己的脾气。
+
+<p align="center">
+  <img src="assets/early-pet-states.png" width="100%" alt="done灯 早期角色表情设计稿">
+</p>
+
+连日报也画过一版很满的。现在回头看，它有些啰嗦，但“把看不见的进展留下来”这句话一直没有变。
+
+<p align="center">
+  <img src="assets/early-daily-report.png" width="46%" alt="done灯 早期完成日报设计稿">
+</p>
+
+这些图不是定稿。你用的时候觉得哪里别扭，或者突然冒出一个更顺手的做法，都可以[直接告诉我](https://github.com/LearnPrompt/done-lamp-releases/issues/new?template=feature_request.yml)。下一版也可能从你的一句话开始。
+
 ## 它不催你规划，只在你做完时亮一下
 
 - **没写进 Todo 也算。** 做完再按。突然处理掉的事、Agent 临时跑出来的结果，都配拥有一个勾。
@@ -75,26 +108,6 @@
 | Codex Agent（在线） | 按下时截一次，交给 Codex Agent | 在线处理 | 已经在用 Codex，想少配点东西 |
 | 模型 API | 按下时截一次，交给你配置的模型 | 你选择的模型服务 | 想自己决定用哪个模型 |
 
-不想用 AI，直接选“仅记录”。以后想换，设置里随时换，不用第一次打开就把所有东西配置明白。
-
-“屏幕录制权限”这个名字容易吓人。macOS 把截图也放在这个权限里。done灯 不会从早到晚盯着你，只在你按下的那一刻截一次。截图范围可以选“智能单窗”或“当前显示器”。
-
-## 关于隐私，直说
-
-一个会截图的 App，得先把这件事讲明白。
-
-- 选“仅记录”，就不截图、不请求屏幕录制权限，也不调用模型。
-- 只有你主动选择识别模式后，done灯 才会向 macOS 申请截图需要的权限。
-- 截图留多久由你设置。想清空，点一下就能删除本机上的全部截图。
-- 权限没开、模型挂了、识别失败，都不会把这次完成一起弄丢。时间先记下来，内容之后还能补。
-- 来 GitHub 反馈问题时，别上传私人截图、窗口标题、完整日志或 API Key。真的，先保护好自己。
-
-## 先装上，别给自己再加一个待办
-
-1. 下载并双击 [`done-lamp-0.3.4.dmg`](https://github.com/LearnPrompt/done-lamp-releases/releases/download/v0.3.4/done-lamp-0.3.4.dmg)。
-2. 在弹出的窗口里，把 `done灯.app` 拖到“应用程序”。
-3. 从“应用程序”打开 done灯。只想先试试感觉，就选“仅记录”；模型以后再配也完全来得及。
-
 ## 你现在下载到的是什么
 
 | 项目 | 信息 |
@@ -104,33 +117,12 @@
 | 支持的 Mac | Apple Silicon 与 Intel，一个安装包都能用 |
 | 签名与公证 | Developer ID 签名，已通过 Apple 公证并装订凭据 |
 | 下载文件 | `done-lamp-0.3.4.dmg` · 约 42.7 MB |
-| SHA-256 | `8066c77b74f9709432e01423ed0000be3efb51bfde6c17cb45b72010e208413b` |
 
 这版具体改了什么，可以看 [0.3.4 Release Notes](https://github.com/LearnPrompt/done-lamp-releases/releases/tag/v0.3.4) 和 [CHANGELOG](CHANGELOG.md)。
 
-## 你可能会问
-
-### 非得用 AI 吗？
-
-完全不用。选“仅记录”，done灯 就只保存完成时间和你自己填写的内容。先把“按一下”的感觉用起来，比先研究半天模型重要。
-
-### 屏幕录制权限，是不是代表它会一直录？
-
-不会一直录。这个名字是 macOS 起的，截图也归它管。done灯 只在你主动按下时截一次。
-
-### 它会替我管理待办吗？
-
-done灯 只管“已经做完”。“接下来要做什么”留给你决定，它不会再拿一张列表来催你。
-
-### 用坏了怎么办？
+## 用坏了怎么办
 
 先看看 [有没有人遇到同一个问题](https://github.com/LearnPrompt/done-lamp-releases/issues)。没有的话，直接告诉我。
 
 - [它哪里坏了](https://github.com/LearnPrompt/done-lamp-releases/issues/new?template=bug_report.yml)
 - [你希望它以后变成什么样](https://github.com/LearnPrompt/done-lamp-releases/issues/new?template=feature_request.yml)
-
-## 最后，这个仓库是干什么的
-
-先把边界讲清楚。done灯 的应用源码没有放在这里。
-
-这个仓库放经过签名和 Apple 公证的安装包，也记着每一版改了什么。你遇到问题，可以直接在这里告诉我。想下载新版，也可以随时回来看看。
