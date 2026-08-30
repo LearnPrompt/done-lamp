@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 下载最新版
+    url: https://github.com/LearnPrompt/done-lamp-releases/releases/latest
+    about: 下载已签名并通过 Apple 公证的最新版 done灯。
+  - name: 查看更新日志
+    url: https://github.com/LearnPrompt/done-lamp-releases/blob/main/CHANGELOG.md
+    about: 查看各版本新增内容和修复。

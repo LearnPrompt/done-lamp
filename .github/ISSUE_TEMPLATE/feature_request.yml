@@ -1,0 +1,43 @@
+name: 提出建议
+description: 告诉我们你希望 done灯 帮你完成什么
+title: "[建议] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: situation
+    attributes:
+      label: 你在什么情况下需要它？
+      description: 请先描述场景和困难，而不只是功能名称。
+      placeholder: 当我……时，我希望……，因为……
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: 你现在怎么解决？
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你期待的做法
+      description: 如果已经有具体想法，可以写在这里。
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 主要涉及
+      options:
+        - 桌面宠物与记录动作
+        - 今天页面与记录编辑
+        - 日报与导出
+        - 本地模型或在线识别
+        - 隐私、权限与截图
+        - 安装、更新与兼容性
+        - 其他
+    validations:
+      required: true
+
