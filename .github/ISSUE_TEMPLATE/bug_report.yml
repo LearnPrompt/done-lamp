@@ -14,7 +14,7 @@ body:
     attributes:
       label: done灯 版本
       description: 可在“设置”页面底部查看。
-      placeholder: 例如 0.3.4 (8)
+      placeholder: 例如 0.4.0 (10)
     validations:
       required: true
 
