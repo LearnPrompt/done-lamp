@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/LearnPrompt/done-lamp/releases/download/v0.4.0/done-lamp-0.4.0.dmg">
-    <img src="https://img.shields.io/badge/Download-macOS%200.4.0-F4B400?style=for-the-badge&logo=apple&logoColor=111111" alt="下载 done灯 macOS 0.4.0">
+  <a href="https://github.com/LearnPrompt/done-lamp/releases/download/v0.4.1/done-lamp-0.4.1.dmg">
+    <img src="https://img.shields.io/badge/Download-macOS%200.4.1-F4B400?style=for-the-badge&logo=apple&logoColor=111111" alt="下载 done灯 macOS 0.4.1">
   </a>
   <a href="https://github.com/LearnPrompt/done-lamp/releases/latest">
     <img src="https://img.shields.io/badge/Release-更新内容-FFF4C2?style=for-the-badge&logo=github&logoColor=111111" alt="查看最新 Release">
@@ -29,19 +29,18 @@
 
 ## 先装起来
 
-1. [下载 done-lamp-0.4.0.dmg](https://github.com/LearnPrompt/done-lamp/releases/download/v0.4.0/done-lamp-0.4.0.dmg)，双击打开。
+1. [下载 done-lamp-0.4.1.dmg](https://github.com/LearnPrompt/done-lamp/releases/download/v0.4.1/done-lamp-0.4.1.dmg)，双击打开。
 2. 把 `done灯.app` 拖进“应用程序”，再从“应用程序”启动。升级前先退出旧版。
 3. 想马上试用，选“仅记录”即可；自动识别可按引导选择模型 API、Codex 或本机 Ollama。
 
-[完整安装与首次使用说明](INSTALL.md) · [0.4.0 更新内容](https://github.com/LearnPrompt/done-lamp/releases/tag/v0.4.0)
+[完整安装与首次使用说明](INSTALL.md) · [0.4.1 更新内容](https://github.com/LearnPrompt/done-lamp/releases/tag/v0.4.1)
 
-## 0.4.0 这次改了什么
+## 0.4.1 这次改了什么
 
-- “今天”、日报和设置页统一为更清楚的纸张布局。
-- 日报有明确的“导出与更多”入口，导出图片默认采用手写字体和纸张纹理。
-- 空日报也会留下一句鼓励，长内容会自动增加纸张高度。
-- 点击记录后先短暂回应，识别在后台继续，结果回来再提示。
-- 默认窗口里的头像裁剪、预览、说明和按钮都能完整显示。
+- 修复通过 Codex CLI 使用第三方服务时，已配置的服务地址和模型被忽略的问题。
+- 自动保存截图、识别、重试和保存阶段的诊断，重启后仍保留，便于排查持续识别失败。
+- 设置底部版本号连续点击 7 次，可导出诊断 ZIP，无需运行命令或操作 Codex。
+- 诊断不包含截图、记录正文、密钥或原始响应，且不会自动上传。
 
 页面中的截图和日报均使用测试示例内容。
 
@@ -130,13 +129,13 @@
 
 | 项目 | 信息 |
 | --- | --- |
-| 版本 | `0.4.0 (10)` · 初代公测版 |
+| 版本 | `0.4.1 (11)` · 诊断内测版 |
 | 能装在哪 | macOS 14.0 或更高版本 |
 | 支持的 Mac | Apple Silicon 与 Intel，一个安装包都能用 |
 | 签名与公证 | Developer ID 签名，已通过 Apple 公证并装订凭据 |
-| 下载文件 | `done-lamp-0.4.0.dmg` · 约 42.8 MB |
+| 下载文件 | `done-lamp-0.4.1.dmg` · 约 43.0 MB |
 
-这版具体改了什么，可以看 [0.4.0 Release Notes](https://github.com/LearnPrompt/done-lamp/releases/tag/v0.4.0) 和 [CHANGELOG](CHANGELOG.md)。
+这版具体改了什么，可以看 [0.4.1 Release Notes](https://github.com/LearnPrompt/done-lamp/releases/tag/v0.4.1) 和 [CHANGELOG](CHANGELOG.md)。
 
 ## 用坏了怎么办
 
