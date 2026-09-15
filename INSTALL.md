@@ -1,14 +1,14 @@
-# 安装和开始使用 done灯 0.4.2
+# 安装和开始使用 done灯 0.4.3
 
 需要 macOS 14.0 或更高版本；Apple Silicon 与 Intel 使用同一个安装包。不需要安装开发工具，也不需要登录 GitHub。
 
 ## 安装或升级
 
 1. 升级时，先从菜单栏退出旧版 done灯。
-2. 在 [0.4.2 Release](https://github.com/LearnPrompt/done-lamp/releases/tag/v0.4.2) 下载 `done-lamp-0.4.2.dmg`。
+2. 在 [0.4.3 Release](https://github.com/LearnPrompt/done-lamp/releases/tag/v0.4.3) 下载 `done-lamp-0.4.3.dmg`。
 3. 双击 DMG，将 `done灯.app` 拖入“应用程序”；如提示替换旧版，选择替换。
 4. 从“应用程序”启动，不要直接在 DMG 里运行。
-5. 设置页底部应显示 `done灯 0.4.2（12）· 诊断内测版`。
+5. 设置页底部应显示 `done灯 0.4.3（13）· 内测版`。
 
 正常升级沿用已有记录和设置。不要再打开 0.3.3 或更早的旧副本：旧版截图清理逻辑可能删除新版仍保留的截图。
 
@@ -54,8 +54,8 @@
 
 ## 安装包校验
 
-文件：`done-lamp-0.4.2.dmg`，43,082,615 字节。
+文件：`done-lamp-0.4.3.dmg`，43,492,709 字节。
 
-SHA-256：`cac9cd8894339944eb536c2ce425c07979a2c623c41cc2d965eddd8cecaa3bab`
+SHA-256：`56e9cdaa6745e772f94b492870e826d5a9f91a641d000809dbe9cd9c120f1738`
 
 安装包已通过 Developer ID 签名、Apple 公证与装订。系统权限、账号和模型需要在使用者自己的 Mac 上配置。
