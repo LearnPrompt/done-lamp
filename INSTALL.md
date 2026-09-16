@@ -1,16 +1,16 @@
-# 安装和开始使用 done灯 0.4.3
+# 安装和开始使用 done灯 0.4.4
 
 需要 macOS 14.0 或更高版本；Apple Silicon 与 Intel 使用同一个安装包。不需要安装开发工具，也不需要登录 GitHub。
 
 ## 安装或升级
 
 1. 升级时，先从菜单栏退出旧版 done灯。
-2. 在 [0.4.3 Release](https://github.com/LearnPrompt/done-lamp/releases/tag/v0.4.3) 下载 `done-lamp-0.4.3.dmg`。
+2. 在 [0.4.4 Release](https://github.com/LearnPrompt/done-lamp/releases/tag/v0.4.4) 下载 `done-lamp-0.4.4.dmg`。
 3. 双击 DMG，将 `done灯.app` 拖入“应用程序”；如提示替换旧版，选择替换。
 4. 从“应用程序”启动，不要直接在 DMG 里运行。
-5. 设置页底部应显示 `done灯 0.4.3（13）· 内测版`。
+5. 设置页底部应显示 `done灯 0.4.4（14）· 内测版`。
 
-正常升级沿用已有记录和设置。不要再打开 0.3.3 或更早的旧副本：旧版截图清理逻辑可能删除新版仍保留的截图。
+正常升级沿用已有记录和设置。官方形象顺序为 done灯、77、闹闹、OpenAI、DeepSeek；旧团队形象选择会自动回到原版 done灯，自定义头像和八状态图片继续保留。不要再打开 0.3.3 或更早的旧副本：旧版截图清理逻辑可能删除新版仍保留的截图。
 
 ## 先体验一次
 
@@ -54,8 +54,10 @@
 
 ## 安装包校验
 
-文件：`done-lamp-0.4.3.dmg`，43,492,709 字节。
+文件：`done-lamp-0.4.4.dmg`，49,026,586 字节。
 
-SHA-256：`56e9cdaa6745e772f94b492870e826d5a9f91a641d000809dbe9cd9c120f1738`
+SHA-256：`50cc3e0e88dd64860320c5b6b4966b416bfe7744306b4ab1bef3356e3b8e7b9a`
+
+构建修订：`1a71cf7`，完整源码指纹：`1a71cf74c4fde92639b1e403427ba562e3c5be4c`。
 
 安装包已通过 Developer ID 签名、Apple 公证与装订。系统权限、账号和模型需要在使用者自己的 Mac 上配置。
